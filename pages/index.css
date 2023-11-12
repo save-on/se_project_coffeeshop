@@ -1,3 +1,12 @@
+:root {
+  --var-white: #fff;
+  --var-black: #000;
+  --var-blue: #2f80ed;
+  --var-borderGrey: #838383;
+  --var-hoursAddressGrey: #6f6f6f;
+  --var-navyBlue: #0a2750;
+}
+
 .page {
   max-width: 1100px;
   min-width: 1600px;
@@ -5,4 +14,15 @@
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
+}
+
+.header {
+  background-image: url("../images/background_header.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.nav__logo {
+  position: relative;
 }
