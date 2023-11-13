@@ -7,6 +7,10 @@
   --var-navyblue: #0a2750;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .page {
   max-width: 1100px;
   min-width: 1600px;
