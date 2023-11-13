@@ -17,6 +17,11 @@
 
 .header {
   padding: 30px 80px 40px 80px;
+  display: flex;
+  flex-direction: column;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
 }
 
 .nav {
@@ -54,11 +59,6 @@
   letter-spacing: -0.6px;
 }
 
-.header__description {
-  margin: 28px 0 0;
-  max-width: 683px;
-}
-
 .header__span-accent {
   display: block;
   font-family: "Noto Serif", "Times New Roman", serif;
@@ -67,4 +67,26 @@
   font-size: 60px;
   line-height: 72px;
   color: var(--var-blue);
+}
+
+.header__description {
+  margin: 28px 0 0;
+  max-width: 683px;
+  font-family: "Noto Serif", "New Times Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__paragraph {
+  margin: 0;
+}
+
+.header__paragraph:last-child {
+  align-self: flex-end;
 }
