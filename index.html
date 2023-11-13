@@ -103,9 +103,8 @@
                 placeholder="Name Surname"
                 id="name"
                 name="name"
+                required
               /><!--Border radius changes-->
-            </fieldset>
-            <fieldset class="form__fieldset">
               <label for="guests" class="form__label">Number of guests *</label>
               <input
                 type="number"
@@ -115,7 +114,31 @@
                 class="form__input"
                 placeholder="1-8"
                 value="guests"
+                required
               />
+              <label for="date" class="form__label">Date & time *</label>
+              <input
+                type="datetime-local"
+                class="form__input"
+                id="date"
+                value="date"
+                required
+              />
+              <label for="email" class="form__label">Your email *</label>
+              <input
+                type="email"
+                class="form__input"
+                name="email"
+                id="email"
+                placeholder="email@email.com"
+                required
+              />
+              <button type="submit" class="form__button">Book a table</button>
+              <!--Opacity hover smooth transition-->
+              <input type="checkbox" name="terms" id="terms" />
+              <label for="terms" class="form__label"
+                >I agree with the terms of use</label
+              >
             </fieldset>
           </form>
         </section>
