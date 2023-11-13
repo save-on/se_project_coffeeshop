@@ -24,6 +24,13 @@
   justify-content: space-between;
 }
 
+.nav__logo {
+  position: relative;
+  left: -50px;
+  width: 105px;
+  height: 39px;
+}
+
 .nav__links {
   display: flex;
   gap: 20px;
@@ -35,4 +42,29 @@
 .nav__link {
   text-decoration: none;
   color: var(--var-black);
+  font-weight: 500;
+}
+
+.header__title {
+  max-width: 729px;
+  margin: 183px 0 0;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+}
+
+.header__description {
+  margin: 28px 0 0;
+  max-width: 683px;
+}
+
+.header__span-accent {
+  display: block;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 60px;
+  line-height: 72px;
+  color: var(--var-blue);
 }
