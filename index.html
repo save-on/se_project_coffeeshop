@@ -91,7 +91,34 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="form reservation__form">
+            <!--Only margin goes in res__form everything else into form-->
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">Name *</label>
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Name Surname"
+                id="name"
+                name="name"
+              /><!--Border radius changes-->
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label for="guests" class="form__label">Number of guests *</label>
+              <input
+                type="number"
+                id="guests"
+                min="1"
+                max="8"
+                class="form__input"
+                placeholder="1-8"
+                value="guests"
+              />
+            </fieldset>
+          </form>
+        </section>
         <section class="menu" id="menu"></section>
         <section class="about" id="contacts"></section>
       </main>
