@@ -14,6 +14,7 @@ html {
 .page {
   max-width: 1100px;
   min-width: 1600px;
+  margin: auto;
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
