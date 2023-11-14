@@ -113,7 +113,6 @@
                 max="8"
                 class="form__input"
                 placeholder="1-8"
-                value="guests"
                 required
               />
               <label for="date" class="form__label">Date & time *</label>
@@ -121,7 +120,6 @@
                 type="datetime-local"
                 class="form__input"
                 id="date"
-                value="date"
                 required
               />
               <label for="email" class="form__label">Your email *</label>
@@ -136,10 +134,15 @@
             </fieldset>
             <button type="submit" class="form__button">Book a table</button>
             <!--Opacity hover smooth transition-->
-            <input type="checkbox" name="terms" id="terms" />
-            <label for="terms" class="form__label"
-              >I agree with the terms of use</label
-            >
+            <label for="terms" class="form__label">
+              <input
+                type="checkbox"
+                name="terms"
+                class="form__checkbox"
+                id="terms"
+              />
+              I agree with the terms of use
+            </label>
           </form>
         </section>
         <section class="menu" id="menu"></section>
