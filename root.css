@@ -7,3 +7,7 @@
   --var-navyblue: #0a2750;
   --var-lighblue: #d9e7ff;
 }
+
+.html {
+  scroll-behavior: smooth;
+}
