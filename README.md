@@ -13,4 +13,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Next thing I plan on adding is streamlining the process where you can pay for the coffee online, give your name, tell the system when you arrived so you don't have to wait in line!
