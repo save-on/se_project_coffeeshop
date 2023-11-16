@@ -57,6 +57,7 @@
   margin: 0;
   font-weight: 500;
   color: var(--var-bordergrey);
+  z-index: 1;
 }
 
 .header__paragraph:last-child {
