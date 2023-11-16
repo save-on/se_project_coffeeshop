@@ -30,6 +30,7 @@
   margin: auto;
   display: flex;
   gap: 40px;
+  list-style-type: none;
 }
 
 .recipes__iframe {

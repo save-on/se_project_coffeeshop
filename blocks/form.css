@@ -13,10 +13,6 @@
   display: block;
 }
 
-.form__label:last-child {
-  font-weight: 500;
-}
-
 .form__label_type_checkbox {
   display: flex;
   justify-content: center;
@@ -61,6 +57,7 @@
   border-radius: 4px;
   opacity: 1;
   transition: opacity 1s ease-out;
+  cursor: pointer;
 }
 
 .form__button:hover {
